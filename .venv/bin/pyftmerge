@@ -1,0 +1,6 @@
+#!/Users/novalindstrom/Code/code_third/assignments/ass1/Assignment1/.venv/bin/python3
+import sys
+from fontTools.merge import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
